@@ -1,4 +1,4 @@
-# Agentic Prompt Optimiser
+# ProPrompt: An Agentic Prompt Optimiser
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -40,8 +40,8 @@ Follow these instructions to get the project running on your local machine.
 First, clone this repository to your local machine:
 
 ```bash
-git clone [https://github.com/your-username/agentic-prompt-optimiser.git](https://github.com/your-username/agentic-prompt-optimiser.git)
-cd agentic-prompt-optimiser
+git clone [https://github.com/ChrisClements1987/proprompt.git](https://github.com/ChrisClements1987/proprompt.git)
+cd proprompt
 ````
 
 Next, it's highly recommended to create a virtual environment to manage dependencies:
@@ -88,13 +88,13 @@ export ANTHROPIC_API_KEY='sk-ant-your-anthropic-key-here'
 With your environment set up, you can now run the main script:
 
 ```bash
-python main.py
+python proprompt.py
 ```
 
-To change the initial prompt, edit the `user_goal` variable at the bottom of the `main.py` file:
+To change the initial prompt, edit the `user_goal` variable at the bottom of the `proprompt.py` file:
 
 ```python
-# In main.py
+# In proprompt.py
 ...
 # --- Run the prototype ---
 user_goal = "I need a prompt for a new logo for my cybersecurity company"
@@ -108,7 +108,7 @@ The project uses a minimal and standard structure for a small Python application
 ```
 .
 ├── .gitignore         # Tells Git which files to ignore
-├── main.py            # The main application script
+├── proprompt.py       # The main application script
 ├── requirements.txt   # Lists Python dependencies (openai, anthropic)
 └── README.md          # This file
 ```
@@ -134,10 +134,10 @@ Please follow these steps to contribute:
 5.  **Push** your branch to your fork: `git push origin feat/your-new-feature`
 6.  Open a **Pull Request** from your branch to this repository's `main` branch.
 
-If you find a bug or have an idea, please [open an issue](https://www.google.com/search?q=https://github.com/your-username/agentic-prompt-optimiser/issues) first to discuss it.
+If you find a bug or have an idea, please [open an issue](https://www.google.com/search?q=https://github.com/ChrisClements1987/proprompt/issues) first to discuss it.
 
 ## 📄 Licensing
 
-This project is licensed under the MIT License. This is a permissive license that allows for wide reuse. See the `LICENSE.txt` file (you will need to create this file) for full details.
+This project is licensed under the MIT License. This is a permissive license that allows for wide reuse.
 
 ```
